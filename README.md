@@ -12,7 +12,7 @@ The aim of DVWA is to practice some of the most common web vulnerability, with v
 
 To run this image you need [docker](http://docker.com) installed. Just run the command:
 
-    docker run --name docker-dvwa -d --rm -it -p 80:80 hightechsec/docker-dvwa
+    docker run --name docker-dvwa -d -it -p 80:80 hightechsec/docker-dvwa
 
 ## Added some changes:
 - Enabled "allow_url_include"
